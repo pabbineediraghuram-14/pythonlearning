@@ -1,7 +1,7 @@
 import math
-a = 5.00
-b = 16.02
-ch = "sqrt"
+a = float(input("enter the 1st number"))
+b = float(input("enter the 2nd number "))
+ch = input("enter the operation +,-,*,/,sqrt,tan,cos,sin,exp")
 if ch == "+":
 	c = a + b
 	print(c)
