@@ -3,7 +3,7 @@ import random
 
 score = 0
 for i in range(10):
-    user = 90
+    user = int(input("enter the number "))
     code = random.randint(1,101)
     if user < code:
         score_user = -1
