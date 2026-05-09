@@ -2,4 +2,3 @@ list1 = [1.2 , 3.4 , 5.90 , 6.8 , 4.56]
 list2 = ["ram" , "aswin" , "bharghav" , "romeo" , "praveen"]
 print(list1)
 print(list2)
-
