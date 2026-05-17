@@ -6,14 +6,17 @@ else:
     
 if 30 not in s:
     print("not-part")
+
+
     
 o = list(s)
 print(o)   
 print(o[0])
+r = set()
+for i in s:
+    x = i+10
+    r.add(x)
 
-
-s = {i+10 for i in s}
-
-print(s)
+print(r)
 
 
