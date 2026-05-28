@@ -11,7 +11,8 @@ today_data = {'usa' : {'+ive': 1, 'test': 1.5 },
 merge = {}
 for i in master_covid_data:
     if i in today_data:
-        merge[i] = {'+ive': master_covid_data[i]['+ive'] + today_data[i]['+ive'],
+        merge[i] = {'+ive': master_covid_data[i]['+ive'] + today_data[i]['+ive']
+        ,
         'test': master_covid_data[i]['test'] + today_data[i]['test']
         }
     else:
