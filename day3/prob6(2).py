@@ -18,9 +18,9 @@ for i in D1:
         
         
 print(DI)
-DD = {}
+DS = {}
 for i in D1:
     if i not in D2:
-        DD[i] = D1[i]
+        DS[i] = D1[i]
         
-print(DD)        
+print(DS)        
